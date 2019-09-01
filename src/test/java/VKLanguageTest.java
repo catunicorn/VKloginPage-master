@@ -6,22 +6,12 @@ import pageobjects.VKLoginPage;
 
 public class VKLanguageTest extends SeleniumTestCase {
 
-    @Test(dataProvider = "testData", enabled = false)
-    public void CheckLanguageTest(String englishButton) throws Exception {
+    @Test(enabled = true)
+    public void checkLanguageTest() throws Exception {
         VKLoginPage
                 .getVKLoginPage()
-                .SwitchLanguage()
-                .ButtonTextChecking(englishButton);
+                .switchLanguage()
+                .buttonTextChecking();
     }
-
-    @DataProvider
-    public Object[][] testData() {
-        return new Object[][]{
-                {
-                        "Log in"
-                }
-        };
-    }
-
 
 }

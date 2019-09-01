@@ -6,7 +6,7 @@ import pageobjects.VKRegistrationPage;
 public class VKLoginTest extends SeleniumTestCase {
 
     @Test(dataProvider = "registerPositiveData", enabled = false) //registerNegativeData
-    public void CheckRegisterPositiveTest(String firstNameValue, String lastNameValue, String birthDayValue, String birthMonthValue, String birthYearValue, String genderValue) throws Exception {
+    public void checkRegisterPositiveTest(String firstNameValue, String lastNameValue, String birthDayValue, String birthMonthValue, String birthYearValue, String genderValue) throws Exception {
 
         VKRegistrationPage
                 .getVKRegistrationPage()

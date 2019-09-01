@@ -17,9 +17,11 @@ public class SeleniumTestCase extends WebDriverCommands {
     @BeforeMethod
     public void setUp() throws Exception {
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Tomson\\Desktop\\VKloginPage-master\\selenium_drivers\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "selenium_drivers\\chromedriver_win32\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "selenium_drivers/chromedriver");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
+        options.addArguments("--lang=ru");
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(ChromeOptions.CAPABILITY, options);
         capabilities.setCapability("pageLoadStrategy", "none");

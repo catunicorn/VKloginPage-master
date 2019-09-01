@@ -19,6 +19,8 @@ public class VKLoginPage extends WebDriverCommands {
     private final String CAPTCHA_NAME = "recaptcha-checkbox-border"; //id
     private final String CAPTCHA_XPATH = ".//label[text()='Я не робот']"; //Xpath
     private final String FB_BUTTON = ".//*[@class='fb-login-button index_fb_continue_with_btn fb_iframe_widget']"; //class
+    private final String FRAME_CAPTCHA = ".//div[@id=\'recaptcha0\']//iframe";
+    private final String FACEBOOK_WINDOW = "Facebook";
 
     public VKLoginPage() {
     }
@@ -38,43 +40,45 @@ public class VKLoginPage extends WebDriverCommands {
         $(Selectors.byId(PASSWORD_INPUT)).waitUntil(Condition.visible, CONSTANT_5_SECONDS).setValue(pwdValue);
         $(Selectors.byId(LOGIN_BUTTON)).waitUntil(Condition.visible, CONSTANT_5_SECONDS).click();
 
-        return new VKLoginPage();
+        return this;
     }
 
 
-    public VKLoginPage SwitchLanguage() throws Exception {
+    public VKLoginPage switchLanguage() throws Exception {
         goToPage(VKUrl);
         $(By.id(SWITCH_LANGUAGE_BUTTON)).waitUntil(Condition.visible, CONSTANT_5_SECONDS).click();
 
-        return new VKLoginPage();
+        return this;
     }
 
-    public VKLoginPage ButtonTextChecking(String ButtonText) throws Exception {
-        $(By.id(LOGIN_BUTTON)).waitUntil(Condition.exactText(ButtonText), CONSTANT_5_SECONDS);
+    public VKLoginPage buttonTextChecking() throws Exception {
+        String buttonText = "Log in";
+        $(By.id(LOGIN_BUTTON)).waitUntil(Condition.exactText(buttonText), CONSTANT_5_SECONDS);
 
-        return new VKLoginPage();
+        return this;
     }
 
-    public VKLoginPage FailedLoginChecking(String LoginMessage) throws Exception {
-        $(By.id(LOGIN_MESSAGE)).waitUntil(Condition.exactText(LoginMessage), CONSTANT_5_SECONDS);
+    public VKLoginPage failedLoginChecking() throws Exception {
+        String loginMessage = "Не удаётся войти";
+        $(By.id(LOGIN_MESSAGE)).waitUntil(Condition.exactText(loginMessage), CONSTANT_5_SECONDS);
 
-        return new VKLoginPage();
+        return this;
     }
 
-    public VKLoginPage ClickCaptcha() throws Exception {
-        Selenide.switchTo().frame($(By.xpath(".//div[@id=\'recaptcha0\']//iframe")));
+    public VKLoginPage clickCaptcha() throws Exception {
+        Selenide.switchTo().frame($(By.xpath(FRAME_CAPTCHA)));
         $(By.xpath(CAPTCHA_XPATH)).waitUntil(Condition.visible, CONSTANT_10_SECONDS);
         $(By.className(CAPTCHA_NAME)).click();
 
-        return new VKLoginPage();
+        return this;
     }
 
-    public VKLoginPage PressFBButton() throws Exception {
+    public VKLoginPage pressFBButton() throws Exception {
         goToPage(VKUrl);
         $(By.xpath(FB_BUTTON)).waitUntil(Condition.visible, CONSTANT_5_SECONDS).click();
-        Selenide.switchTo().window("Facebook");
+        Selenide.switchTo().window(FACEBOOK_WINDOW);
 
-        return new VKLoginPage();
+        return this;
     }
 
 

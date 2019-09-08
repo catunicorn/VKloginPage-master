@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f5030faf-5c22-4f23-a68d-37d788f73e1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/VKLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/VKLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FailedLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FailedLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/VKLanguageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VKLanguageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageobjects/VKLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobjects/VKLoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/VKLanguageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/VKLanguageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKAboutPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+            <state relative-caret-position="78">
+              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +109,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="245" />
     <option name="y" value="63" />
     <option name="width" value="875" />
@@ -196,7 +191,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567956065794" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567958452521" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../VKloginPage" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -253,14 +248,11 @@
       <workItem from="1567258746310" duration="990000" />
       <workItem from="1567357763869" duration="957000" />
       <workItem from="1567933705507" duration="20456000" />
-      <workItem from="1567956377310" duration="494000" />
+      <workItem from="1567956377310" duration="2187000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2019.09.08 at 15h 45m 23s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Unnamed - 2019.09.08 at 16h 34m 17s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
@@ -288,9 +280,12 @@
     <history-entry file="Unnamed - 2019.09.08 at 18h 29m 08s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Unnamed - 2019.09.08 at 18h 35m 28s.xml">
+      <configuration name="Unnamed" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47070000" />
+    <option name="totallyTimeSpent" value="48763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,7 +309,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50119907" side_tool="true" weight="0.2647504" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.20450886" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.22222222" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -517,8 +512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKAboutPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="62" column="55" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
+        <state relative-caret-position="78">
+          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

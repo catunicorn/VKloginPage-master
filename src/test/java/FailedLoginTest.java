@@ -7,10 +7,7 @@ public class FailedLoginTest extends SeleniumTestCase {
     @Test(dataProvider = "testData", enabled = false)
     public void failedLogin(String nameValue, String pwdValue) throws Exception {
         VKLoginPage
-                .getVKLoginPage()
-                .loginVKPage(nameValue, pwdValue)
-                .clickCaptcha()
-                .failedLoginChecking();
+                .getVKLoginPage();
 
     }
 

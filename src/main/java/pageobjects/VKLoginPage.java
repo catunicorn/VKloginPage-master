@@ -21,6 +21,8 @@ public class VKLoginPage extends WebDriverCommands {
     private final String FB_BUTTON = ".//*[@class='fb-login-button index_fb_continue_with_btn fb_iframe_widget']"; //class
     private final String FRAME_CAPTCHA = ".//div[@id=\'recaptcha0\']//iframe";
     private final String FACEBOOK_WINDOW = "Facebook";
+    private final String ALLPRODUCTS_BUTTON = "login_all_products_button"; //class
+
 
     public VKLoginPage() {
     }
@@ -77,6 +79,13 @@ public class VKLoginPage extends WebDriverCommands {
         goToPage(VKUrl);
         $(By.xpath(FB_BUTTON)).waitUntil(Condition.visible, CONSTANT_5_SECONDS).click();
         Selenide.switchTo().window(FACEBOOK_WINDOW);
+
+        return this;
+    }
+
+    public VKLoginPage pressAllProductsButton() throws Exception {
+        goToPage(VKUrl);
+        $(By.className(ALLPRODUCTS_BUTTON)).waitUntil(Condition.visible, CONSTANT_5_SECONDS).click();
 
         return this;
     }

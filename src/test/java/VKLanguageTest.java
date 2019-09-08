@@ -6,7 +6,7 @@ import pageobjects.VKLoginPage;
 
 public class VKLanguageTest extends SeleniumTestCase {
 
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void checkLanguageTest() throws Exception {
         VKLoginPage
                 .getVKLoginPage()

@@ -5,7 +5,7 @@ import pageobjects.VKLoginPage;
 import pageobjects.VKProductsPage;
 
 public class CountSumTest extends SeleniumTestCase {
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void countSum() throws Exception {
         VKLoginPage
                 .getVKLoginPage()
@@ -17,7 +17,8 @@ public class CountSumTest extends SeleniumTestCase {
 
         VKAboutPage
                 .getVKAboutPage()
-                .countSum();
+                .countSum()
+                .countPublic();
 
 
     }

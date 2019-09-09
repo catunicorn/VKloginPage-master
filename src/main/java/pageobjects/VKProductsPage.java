@@ -11,6 +11,8 @@ import static framework.Constants.CONSTANT_5_SECONDS;
 public class VKProductsPage extends WebDriverCommands {
 
     private final String ABOUTCOMPANY_BUTTON = ".//*[@class='ui_tab'][contains(text(), 'О компании')]"; //Xpath
+    private final String JOBINVK_BUTTON = ".//*[@class='ui_tab'][contains(text(), 'Работа ВКонтакте')]"; //Xpath
+
 
     public VKProductsPage() {
     }
@@ -29,5 +31,11 @@ public class VKProductsPage extends WebDriverCommands {
 
         return new VKProductsPage();
 
+    }
+
+    public VKProductsPage pressJobInVKButton() throws Exception {
+        $(By.xpath(JOBINVK_BUTTON)).waitUntil(Condition.visible, CONSTANT_5_SECONDS).click();
+
+        return new VKProductsPage();
     }
 }

@@ -1,11 +1,15 @@
 package pageobjects;
 
+import com.codeborne.selenide.Condition;
 import framework.WebDriverCommands;
 import org.openqa.selenium.By;
 
 import java.math.BigInteger;
 
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.$$;
+import static framework.Constants.CONSTANT_5_SECONDS;
+
 
 public class VKAboutPage extends WebDriverCommands {
     private final String STATISTIC_BLOCK1 = ".//*[contains(@class, 'stats_wr')]//div[1]/div[1]"; //Xpath
@@ -16,6 +20,8 @@ public class VKAboutPage extends WebDriverCommands {
     private final String STATISTIC_BLOCK6 = ".//*[contains(@class, 'stats_wr')]//div[6]/div[1]"; //Xpath
     private final String STATISTIC_BLOCK7 = ".//*[contains(@class, 'stats_wr')]//div[7]/div[1]"; //Xpath
     private final String STATISTIC_BLOCK8 = ".//*[contains(@class, 'stats_wr')]//div[8]/div[1]"; //Xpath
+    private final String OFFICIAL_PUBLIC = ".//div[@class='blog_about_link']"; //Xpath
+    private final String JOBVK_BUTTON = ".//*[@class='ui_tab'][contains(text(), 'Работа ВКонтакте')]"; //Xpath
 
 
     public VKAboutPage() {
@@ -51,7 +57,7 @@ public class VKAboutPage extends WebDriverCommands {
         statisticNumbers[6] = g;
         statisticNumbers[7] = h;
 
-        BigInteger sum = 0;
+        BigInteger sum = BigInteger.valueOf(0);
 
         for (int i = 0; i < 8; i++) {
 
@@ -61,14 +67,26 @@ public class VKAboutPage extends WebDriverCommands {
             if (statisticNumbers[i].contains("B")) {
                 statisticNumbers[i] = statisticNumbers[i].replace("B", "000000000");
             }
-            sum = sum + Integer.parseInt(statisticNumbers[i]);
+            sum = sum.add(new BigInteger(statisticNumbers[i]));
         }
 
 
         System.out.println(sum);
 
         return this;
+    }
 
+    public VKAboutPage countPublic() throws Exception {
 
+        int numberOfPublics = $$(By.xpath(OFFICIAL_PUBLIC)).size();
+        System.out.println(numberOfPublics);
+
+        return this;
+    }
+
+    public VKAboutPage pressJobInVKButton() throws Exception {
+        $(By.xpath(JOBVK_BUTTON)).waitUntil(Condition.visible, CONSTANT_5_SECONDS).click();
+
+        return new VKAboutPage();
     }
 }

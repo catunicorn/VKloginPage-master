@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f5030faf-5c22-4f23-a68d-37d788f73e1d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/VKAboutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/VKAboutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/VKProductsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/VKProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CountSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CountSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/VKLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VKLoginTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CountSumTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKAboutPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="23" column="100" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="100" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,8 +35,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKProductsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="18">
+              <caret line="13" column="102" selection-start-line="13" selection-start-column="102" selection-end-line="13" selection-end-column="102" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SearchingQAJobTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKJobPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,10 +69,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKAboutPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKVerificationPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+            <state relative-caret-position="238">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/VKLoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,7 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/VKLoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/FailedLogin.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageobjects/FBLoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/SwitchToFacebook.java" />
@@ -85,9 +121,12 @@
         <option value="$PROJECT_DIR$/src/test/java/VKLanguageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/FailedLoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageobjects/VKLoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageobjects/VKProductsPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CountSumTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageobjects/VKAboutPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CountSumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/VKProductsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageobjects/VKJobPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/VKLoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SearchingQAJobTest.java" />
       </list>
     </option>
   </component>
@@ -110,8 +149,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="245" />
-    <option name="y" value="63" />
+    <option name="x" value="243" />
+    <option name="y" value="80" />
     <option name="width" value="875" />
     <option name="height" value="530" />
   </component>
@@ -121,6 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -185,13 +225,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567958452521" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568044292210" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../VKloginPage" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -248,44 +287,45 @@
       <workItem from="1567258746310" duration="990000" />
       <workItem from="1567357763869" duration="957000" />
       <workItem from="1567933705507" duration="20456000" />
-      <workItem from="1567956377310" duration="2187000" />
+      <workItem from="1567956377310" duration="10439000" />
+      <workItem from="1568044627284" duration="2899000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2019.09.08 at 16h 34m 17s.xml">
+    <history-entry file="Unnamed - 2019.09.08 at 20h 49m 50s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Unnamed - 2019.09.08 at 18h 01m 23s.xml">
+    <history-entry file="Unnamed - 2019.09.08 at 20h 52m 38s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Unnamed - 2019.09.08 at 18h 06m 38s.xml">
+    <history-entry file="Unnamed - 2019.09.08 at 20h 55m 31s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Unnamed - 2019.09.08 at 18h 07m 00s.xml">
+    <history-entry file="Unnamed - 2019.09.08 at 20h 56m 28s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Unnamed - 2019.09.08 at 18h 16m 14s.xml">
+    <history-entry file="Unnamed - 2019.09.09 at 18h 41m 09s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Unnamed - 2019.09.08 at 18h 17m 18s.xml">
+    <history-entry file="Unnamed - 2019.09.09 at 18h 48m 42s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Unnamed - 2019.09.08 at 18h 19m 25s.xml">
+    <history-entry file="Unnamed - 2019.09.09 at 18h 50m 04s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Unnamed - 2019.09.08 at 18h 20m 26s.xml">
+    <history-entry file="Unnamed - 2019.09.09 at 22h 36m 49s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Unnamed - 2019.09.08 at 18h 29m 08s.xml">
+    <history-entry file="Unnamed - 2019.09.09 at 22h 38m 41s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Unnamed - 2019.09.08 at 18h 35m 28s.xml">
+    <history-entry file="Unnamed - 2019.09.09 at 23h 05m 03s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48763000" />
+    <option name="totallyTimeSpent" value="59914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -300,7 +340,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49880096" visible="true" weight="0.2685325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49880096" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" sideWeight="0.50119907" side_tool="true" weight="0.2647504" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,7 +349,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50119907" side_tool="true" weight="0.2647504" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.22222222" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3252818" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,8 +358,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32850242" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.32850242" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.048309177" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.12560387" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.12560387" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49924356" weight="0.41062802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -395,16 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/VKLoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/Exception.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -449,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKVerificationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/FBLoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -483,27 +506,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKRegistrationPage.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codeborne/selenide/4.8/selenide-4.8.jar!/com/codeborne/selenide/Selenide.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="152">
+          <caret line="197" column="37" selection-start-line="197" selection-start-column="37" selection-end-line="197" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CountSumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKProductsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="11" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -512,11 +525,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKAboutPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+        <state relative-caret-position="255">
+          <caret line="23" column="100" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="100" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKProductsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="13" column="102" selection-start-line="13" selection-start-column="102" selection-end-line="13" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKRegistrationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/VKLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKJobPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SearchingQAJobTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKVerificationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>

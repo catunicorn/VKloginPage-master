@@ -1,17 +1,16 @@
 package pageobjects;
 
+import com.codeborne.selenide.Selectors;
 import framework.WebDriverCommands;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 
-import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
 
 public class VKJobPage extends WebDriverCommands {
 
-    private final String QAJOB_NAME = "//*[contains(text(), 'Инженер по автоматизации тестирования в команду Игр')]"; //Xpath
-    private final String ALLJOBS = ".//*[@class='blog_job_title']"; //Xpath
+    private final String QAJOB_NAME = "//*[contains(text(), 'Инженер по автоматизации тестирования (Команда Игр)')]"; //Xpath
+    private final String assertJob_Message = "QA Automation Engineer at Game Development Department is found";
 
     public VKJobPage() {
     }
@@ -26,8 +25,8 @@ public class VKJobPage extends WebDriverCommands {
     }
 
     public VKJobPage searchForQAJob() throws Exception {
-        Assert.assertEquals($(By.xpath(QAJOB_NAME)),$$(By.xpath(ALLJOBS)),
-                "QA Automation engineer at Game Development Department Vacancy is not found");
+        Assert.assertTrue($$(Selectors.byXpath(QAJOB_NAME)).size() == 0,
+                assertJob_Message);
 
 
         return this;

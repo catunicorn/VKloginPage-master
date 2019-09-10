@@ -148,12 +148,6 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="243" />
-    <option name="y" value="80" />
-    <option name="width" value="875" />
-    <option name="height" value="530" />
-  </component>
   <component name="ProjectId" id="1PhJaw6VGdG0oPIr5khva3uVgoX" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -228,10 +222,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568044292210" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VKloginPage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />

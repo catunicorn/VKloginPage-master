@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5030faf-5c22-4f23-a68d-37d788f73e1d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/VKAboutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/VKAboutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobjects/VKLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobjects/VKLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SearchingQAJobTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchingQAJobTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageobjects/VKLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobjects/VKLoginPage.class" afterDir="false" />
-    </list>
+    <list default="true" id="f5030faf-5c22-4f23-a68d-37d788f73e1d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKWarCrisisPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
-              <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,8 +53,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CountStarsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,7 +138,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="243" />
     <option name="y" value="80" />
     <option name="width" value="875" />
@@ -225,7 +221,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568487397455" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568487996340" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Code/VKloginPage-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -285,14 +281,11 @@
       <workItem from="1567956377310" duration="10439000" />
       <workItem from="1568044627284" duration="2899000" />
       <workItem from="1568147558321" duration="155000" />
-      <workItem from="1568472377874" duration="13831000" />
+      <workItem from="1568472377874" duration="14346000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2019.09.14 at 19h 21m 42s.xml">
-      <configuration name="Unnamed" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Unnamed - 2019.09.14 at 19h 29m 02s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
@@ -320,9 +313,12 @@
     <history-entry file="Unnamed - 2019.09.14 at 21h 10m 12s.xml">
       <configuration name="Unnamed" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Unnamed - 2019.09.14 at 21h 57m 09s.xml">
+      <configuration name="Unnamed" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74177000" />
+    <option name="totallyTimeSpent" value="74692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -607,7 +603,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pageobjects/VKWarCrisisPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
-          <caret line="33" column="32" lean-forward="true" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -616,8 +612,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CountStarsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,5 @@
 package pageobjects;
 
-import framework.SeleniumTestCase;
 import framework.WebDriverCommands;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selectors;

@@ -4,10 +4,7 @@ import com.codeborne.selenide.Condition;
 import framework.WebDriverCommands;
 import org.openqa.selenium.By;
 
-import java.math.BigInteger;
-
 import static com.codeborne.selenide.Selenide.$;
-import static com.codeborne.selenide.Selenide.$$;
 import static framework.Constants.CONSTANT_5_SECONDS;
 
 

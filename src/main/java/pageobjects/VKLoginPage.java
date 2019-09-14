@@ -22,6 +22,7 @@ public class VKLoginPage extends WebDriverCommands {
     private final String FRAME_CAPTCHA = ".//div[@id=\'recaptcha0\']//iframe";
     private final String FACEBOOK_WINDOW = "Facebook";
     private final String ALLPRODUCTS_BUTTON = "login_all_products_button"; //class
+    private final String TERMS_BUTTON = ".//div[@id='index_footer_wrap']//a[text()= 'правила']"; //Xpath
 
 
     public VKLoginPage() {
@@ -86,6 +87,13 @@ public class VKLoginPage extends WebDriverCommands {
     public VKLoginPage pressAllProductsButton() throws Exception {
         goToPage(VKUrl);
         $(By.className(ALLPRODUCTS_BUTTON)).waitUntil(Condition.visible, CONSTANT_5_SECONDS).click();
+
+        return this;
+    }
+
+    public VKLoginPage pressTermsButton() throws Exception {
+        goToPage(VKUrl);
+        $(By.xpath(TERMS_BUTTON)).waitUntil(Condition.visible, CONSTANT_5_SECONDS).click();
 
         return this;
     }

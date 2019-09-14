@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="loginPage" />
-        <module name="VKloginPage-master" />
         <module name="VKloginPage" />
+        <module name="VKloginPage-master" />
       </profile>
     </annotationProcessing>
   </component>

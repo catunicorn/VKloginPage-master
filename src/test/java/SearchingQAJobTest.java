@@ -6,7 +6,7 @@ import pageobjects.VKProductsPage;
 
 
 public class SearchingQAJobTest extends SeleniumTestCase {
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void searchQAJob() throws Exception {
 
         VKLoginPage
